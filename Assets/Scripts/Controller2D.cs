@@ -133,7 +133,7 @@ public class Controller2D : RaycastController
 
 			if (hit)
 			{
-				if (hit.collider.tag == "Through")
+				if (hit.collider.tag == "Permeable")
 				{
 					if (directionY == 1 || hit.distance == 0)
 					{
