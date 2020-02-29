@@ -35,7 +35,6 @@ public class Player : MonoBehaviour
 
 	void Start()
 	{
-		Debug.Log("Hello");
 		controller = GetComponent<Controller2D>();
 
 		gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
